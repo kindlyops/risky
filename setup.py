@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ 'numpy', 'scipy', 'pymc3']
+requirements = [ 'numpy', 'scipy', 'pymc3', 'attr']
 
 setup_requirements = ['pytest-runner', ]
 
